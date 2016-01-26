@@ -8,17 +8,22 @@ body{
 }
 header{
   height: 80px;
-  line-height: auto;
+  line-height: 80px;
   color:gray;
   padding: 10px;
   font-size:20px;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
+}
+header .logo{
+  float:left;
+}
+header .text{
+  font-size: 20px;
+  float:left;
+  margin-left: 10px;
 }
 .btn-primary{
   float:right;
-}
-.icon{
-  float:left;
 }
 .green{
   background-color: green;
