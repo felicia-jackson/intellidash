@@ -1,6 +1,6 @@
 /* Scratch, you say? */
 html, body{
-  height: 100%;
+  
 }
 body{
   font-family:open-sans, sans-sarif;
@@ -24,6 +24,7 @@ header .text{
 }
 .btn-primary{
   float:right;
+  margin-top: 25px;
 }
 .green{
   background-color: green;
@@ -52,11 +53,6 @@ header .text{
 }
 .sidebar .nav li a .glyphicon{
   margin-right: 10px;
-}
-main .content{
-  border:1px solid gray;
-  border-radius: 6px;
-  height: 500px;
 }
 
 @media screen and (min-width: 768px){
