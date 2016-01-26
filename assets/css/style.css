@@ -1,1 +1,48 @@
 /* Scratch, you say? */
+html, body{
+
+}
+body{
+  font-family:open-sans;
+  font-weight:300;
+}
+header{
+  height: 80px;
+  line-height: auto;
+  color:gray;
+  padding: 10px;
+  font-size:20px;
+  border-bottom: 1px solid gray;
+}
+.btn-primary{
+  float:right;
+}
+.icon{
+  float:left;
+}
+.green{
+  background-color: green;
+  height: 100px;
+  margin: 20px;
+  padding:15px;
+}
+.sidebar{
+  border-right: 1px solid gray;
+}
+.sidebar nav{
+  font-size: 16px;
+  margin-top: 0;
+}
+.sidebar .nav li a{
+  color: black; 
+  padding: 15px; 
+  border-bottom: 1px solid gray;
+}
+.sidebar .nav li a .glyphion{
+  margin-right: 10px;
+}
+.
+
+@media screen and (min-width: 768px){
+  main, main
+} 
