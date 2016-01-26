@@ -21,22 +21,32 @@
       <div class="text">
         Intellidash
       </div>
-      <button type="button" class="btn btn-primary logout hidden-xs">Logout<span class=""></span></button>
-      <button class="btn-default menu visible-xs"
+      <nav>
+      <button type="button" class="btn btn-primary logout hidden-xs">Logout<span class="glyphicon glyphicon-menu-hamburger"></span></button>
+      <button class="btn-default menu visible-xs"></button>
+      </nav>
     </header>
     
     <main class="container-fluid">
       <div class="row">
       </div>
-      <div></div>
-        <input type="text" class="form-control" placeholder="Search...">
+      <div class="sidebar col-xs-12 col-sm-3 col-md-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Go!<span class="glyphicon glyphicon-search"></span></button>
+          </span>
+        </div>
+      </div>
+ 
+      </div>
         <ul class="nav nav-pills nav-stacked">
           <li role="presentation"><a href="#"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard</a></li>
           <li role="presentation"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Customers</a></li>
           <li role="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Orders</a></li>
-          <li class="visible-xs-block" role="presentation"><a href="#"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Logout</a></li>
+          <li class="visible-xs-block" role="presentation"><a href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Logout</a></li>
         </ul>
-      <div>
+      <div class="content col-xs-12 col-sm-9 col-md-9">
         <div class="row">
           <div class= "col-sm-12 col-md-6 green"><div></div></div>
           <div class= "col-sm-12 col-md-6 green"><div></div></div>
@@ -44,7 +54,7 @@
         <div class="row">
           <div class= "col-sm-12 col-md-6 green"><div></div></div>
           <div class= "col-sm-12 col-md-6 green"><div></div></div>
-      </div>
+        </div>
       </div>
     </main>
     

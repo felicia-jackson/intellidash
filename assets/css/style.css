@@ -1,9 +1,9 @@
 /* Scratch, you say? */
 html, body{
-
+  height: 100%;
 }
 body{
-  font-family:open-sans;
+  font-family:open-sans, sans-sarif;
   font-weight:300;
 }
 header{
@@ -32,10 +32,17 @@ header .text{
   padding:15px;
 }
 .sidebar{
-  border-right: 1px solid gray;
+  border-right: 2px solid gray;
+  border-radius: 6px;
+  height:100%;
+  padding: 0;
 }
-.sidebar nav{
-  font-size: 16px;
+.sidebar .input-group{
+  padding: 15px;
+  border-bottom: 2px solid gray;
+}
+.sidebar .nav{
+  font-size: 15px;
   margin-top: 0;
 }
 .sidebar .nav li a{
@@ -43,11 +50,16 @@ header .text{
   padding: 15px; 
   border-bottom: 1px solid gray;
 }
-.sidebar .nav li a .glyphion{
+.sidebar .nav li a .glyphicon{
   margin-right: 10px;
 }
-.
+main .content{
+  border:1px solid gray;
+  border-radius: 6px;
+  height: 500px;
+}
 
 @media screen and (min-width: 768px){
-  main, main
+  main, main .row{
+  height: 100%;
 } 
